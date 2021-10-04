@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Sample Minutes</title>
+        <link rel = "icon" href =http://cdn.onlinewebfonts.com/svg/img_473873.png  type = "image/x-icon">
+    </head>
+    <body>
+        <header>
+            <div>Sample Meeting Minutes</div>
+            <nav>
+                <ul>
+                    <li><a href="#check ins">Check Ins</a></li>
+                    <li><a href="#brainstorming">Brainstorming</a></li>
+                    <li><a href="#form">Form</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h1>Sample Meeting Minutes</h1>
+            <img
+                src="https://cdn-images-1.medium.com/max/2000/1*YRINRZFr0E1FRJ4JpizEMw.jpeg"
+                alt="lake"
+                width="250"
+            />
+            <h3>October 1st 2021</h3>
+            <details>
+                <summary>Agenda for today</summary>
+                Today we will just be brainstorming some ideas for implementation of our project.
+            </details>
+            
+
+            <section>
+                <h2 id="check ins">Check Ins</h2>
+                <ol>
+                    <li><input type="checkbox" /> Stuart</li>
+                    <li><input type="checkbox" /> James</li>
+                    <li><input type="checkbox" /> John</li>
+                    <li><input type="checkbox" /> Larry</li>
+                    <li><input type="checkbox" /> Sean</li>
+                </ol>
+            </section>
+
+            <section>
+                <h2 id="brainstorming">Brainstorming</h2>
+                <h4>Target Audience</h4>
+                <p>
+                    <span>Who</span> is the target audience for this project?<br>
+                    What features do they need from our product? <br>
+                    We want to make a game called <i>runaway</i>. It should be very <em>fun</em>.
+                </p>
+
+                <h4>Datastructures</h4>
+                <p>
+                    <strong>Which</strong> elements need datastructures? <br>
+                    A good game will help build our <b>Curriculum Vitae</b>.
+
+                </p>
+
+                <video controls
+                    src="https://ia801904.us.archive.org/8/items/popeye-pubdomain/A_Date_to_Skate.mp4"
+                    width="300">
+                
+                    Sorry, your browser doesn't support embedded videos.
+                </video>
+
+                <audio controls>
+                    <source src="https://www.computerhope.com/jargon/m/example.mp3"/>
+                </audio>
+
+                <audio controls>
+                    <source src="audio.mp3"
+                    type="audio/mp3">
+
+                    Your browser does not support the
+                    audio element.
+                </audio>
+                
+            </section>
+        </main>
+        <hr />
+        <footer>
+            <section>
+                <h6 id="form">Form</h6>
+                <form>
+                    <h3>Interest form for joining the project</h3>
+                    <input type="text" placeholder="Enter Email Address" /> <br> <br> 
+
+                    <label for="birthdate">When were you born:</label> <br>
+                    
+                    <input type="date" id="birthdate" name="birthdate" value="2021-01-01" min="1918-01-01" max="2021-12-31">
+
+                    
+
+                    <fieldset>
+                        <legend>Reason for interest</legend>
+                    
+                        <input type="radio" id="cool people" name="reason">
+                        <label for="cool people">Cool People</label><br/>
+                    
+                        <input type="radio" id="cool idea" name="reason">
+                        <label for="cool idea">Cool Idea</label><br/>
+                    
+                        <input type="radio" id="bored" name="reason">
+                        <label for="bored">Bored</label>
+                    </fieldset>
+
+                    <label for="favourite person">Choose your favourite member:</label>
+                    <br>
+                    <input list="people" id="favourite person" name="favourite person" />
+                    <br>
+                    <datalist id="people">
+                        <option value="Stuart">
+                        <option value="James">
+                        <option value="John">
+                        <option value="Larry">
+                        <option value="Sean">
+                    </datalist>
+                    <br>
+
+                    <label for="interest">Where did you hear about us from:</label>
+                    <br>
+                    <textarea id="interest" name="interest" rows="5" cols="33">
+                    </textarea>
+
+                    <br>
+                    <label for="spirit-animal">To help us get to know you please tell us which animal you most closely associate with:</label>
+                    <br>
+                    <select name="animals" id="spirit-animal">
+                        <option value="">--Please choose an option--</option>
+                        <option value="unicorn">Unicorn</option>
+                        <option value="t-rtex">T-Rex</option>
+                        <option value="ant">Ant</option>
+                        <option value="cs major">CS Major</option>
+                        <option value="frog">Frog</option>
+                    </select>
+
+                    <p>The checkbox input was used for Check Ins</p>
+
+
+                    <button>Submit</button>
+                </form>
+                <br />
+                
+            </section>
+        </footer>
+          
+    </body>
+</html>
