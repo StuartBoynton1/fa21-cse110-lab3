@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <link rel="stylesheet" href="index.css">
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Sample Minutes</title>
@@ -24,7 +25,7 @@
                 alt="lake"
                 width="250"
             />
-            <h3>October 1st 2021</h3>
+            <h3 id="date">October 1st 2021</h3>
             <details>
                 <summary>Agenda for today</summary>
                 Today we will just be brainstorming some ideas for implementation of our project.
@@ -32,9 +33,9 @@
             
 
             <section>
-                <h2 id="check-ins">Check Ins</h2>
+                <h2 id="check-ins" class="headers">Check Ins</h2>
                 <ol>
-                    <li><input type="checkbox" /> Stuart</li>
+                    <li><input type="checkbox" id="stuart"/> Stuart</li>
                     <li><input type="checkbox" /> James</li>
                     <li><input type="checkbox" /> John</li>
                     <li><input type="checkbox" /> Larry</li>
@@ -43,7 +44,7 @@
             </section>
 
             <section>
-                <h2 id="brainstorming">Brainstorming</h2>
+                <h2 id="brainstorming" class="headers">Brainstorming</h2>
                 <h4>Target Audience</h4>
                 <p>
                     <span>Who</span> is the target audience for this project?<br>
@@ -74,7 +75,7 @@
         <hr />
         <footer>
             <section>
-                <h6 id="form">Form</h6>
+                <h2 id="form" class="headers">Form</h2>
                 <form>
                     <h3>Interest form for joining the project</h3>
                     <input type="text" placeholder="Enter Email Address" /> <br> <br> 
