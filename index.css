@@ -3,13 +3,20 @@ h1 {
   }
 
 .headers {
-    color:rgb(76, 157, 172)
+    color:rgb(76, 157, 172);
 }
 
 #stuart {
-    color:#FA3030
+    color:#FA3030;
+    
 }
 
 #date {
-    color:hsl(100, 100%, 50%)
+    color:hsl(100, 100%, 50%);
 }
+
+#agenda {
+    background-color: ivory; 
+    color: black
+}
+
