@@ -1,9 +1,11 @@
 h1 {
     color: blue;
+    font-size: 8vw;
   }
 
 .headers {
     color:rgb(76, 157, 172);
+    font-size: 5vw;
 }
 
 #stuart {
@@ -13,10 +15,23 @@ h1 {
 
 #date {
     color:hsl(100, 100%, 50%);
+    font-size: 3vw;
 }
 
 #agenda {
     background-color: ivory; 
     color: black
+}
+
+p {
+    font-size: 12px;
+}
+
+#lake_image {
+    width: 300px;
+}
+
+#content_header {
+    font-size: 15px;
 }
 
