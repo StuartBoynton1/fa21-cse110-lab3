@@ -1,4 +1,4 @@
-h1 {
+h1 {            /* Setting color and size of main  header */
     color: blue;
     font-size: 8vw;
   }
@@ -90,3 +90,36 @@ button:active {
     color: purple;
 }
 
+.flexbox_container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    list-style: none;
+    align-items: center;
+}
+
+.flexbox_item {
+    background:rgb(76, 157, 172);
+    width: 200px;
+    height: 100px;
+    padding: 5px;
+    margin: 10px 10px 10px 10px;
+    font-size: 2em;
+    text-align: center;
+}
+
+.grid_holder {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-start: auto;
+    grid-gap: 10px;
+    padding: 10px;
+    background-color: cornflowerblue;
+    margin: 20px;
+}
+
+.grid_item {
+    border: 2px solid blue;
+    padding: 20px;
+    text-align: center;
+}
