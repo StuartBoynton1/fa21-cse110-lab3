@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Noto sans";
+    src: url("https://fonts.google.com/download?family=Noto%20Sans%20Display");
+  }
+
 @media all {
     body {
         background-color: rgb(20, 10, 10);
@@ -33,6 +38,7 @@ h1 {            /* Setting color and size of main  header */
 
 p {
     font-size: 12px;
+    font-family: "Noto sans";
 }
 
 .box_one {
