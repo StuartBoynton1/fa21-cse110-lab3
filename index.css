@@ -52,6 +52,9 @@ p {
     border: 5px solid red;
     margin: 4px 10px 10px 10px;
     padding: 8px 14px 2px 10px;
+
+    max-width: 70vw;
+    max-height: 30vw;
 }
 
 .box_three {
@@ -66,6 +69,7 @@ p {
 }
 
 #lake_image {
+    height: 200px;
     width: 300px;
 }
 
