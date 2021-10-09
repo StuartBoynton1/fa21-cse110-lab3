@@ -6,6 +6,8 @@ h1 {
 .headers {
     color:rgb(76, 157, 172);
     font-size: 5vw;
+    text-decoration: underline;
+    text-align: left;
 }
 
 #stuart {
@@ -40,6 +42,8 @@ p {
     padding-bottom: 4px;
     padding-left: 8px;
     padding-right: 8px;
+
+    color: yellow;
 }
 
 .box_two {
