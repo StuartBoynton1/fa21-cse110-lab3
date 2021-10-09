@@ -82,3 +82,11 @@ p {
     font-size: 15px;
 }
 
+button:hover {
+    color: blue;
+}
+
+button:active {
+    color: purple;
+}
+
