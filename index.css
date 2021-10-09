@@ -9,16 +9,16 @@
     }
 }
 
-h1 {            /* Setting color and size of main  header */
-    color: blue;
-    font-size: 8vw;
-  }
 
 .headers {
     color:rgb(76, 157, 172);
     font-size: 5vw;
     text-decoration: underline;
     text-align: left;
+}
+
+.headers[target] {
+    border: 3px solid yellow;
 }
 
 #stuart {
@@ -36,10 +36,6 @@ h1 {            /* Setting color and size of main  header */
     color: black
 }
 
-p {
-    font-size: 12px;
-    font-family: "Noto sans";
-}
 
 .box_one {
     border-width: 3px;
@@ -73,12 +69,11 @@ p {
 
 .box_three {
     margin: auto;
-    border: 2px solid hsl(50, 10%, 1%);
-
-    ;
+    border: 2px solid hsl(60, 51%, 33%);
 }
 
-.box_four {
+.box_four,
+.box_five {
     display: none;
 }
 
@@ -134,4 +129,21 @@ button:active {
     border: 2px solid blue;
     padding: 20px;
     text-align: center;
+}
+
+
+div h2 {
+    border: 3px solid rebeccapurple;
+}
+
+div > h2 {
+    color:hsl(100, 100%, 50%)
+}
+
+div ~ p {
+    background-color: lavender;
+}
+
+div + p {
+    text-decoration: underline;
 }
