@@ -44,6 +44,8 @@ p {
     padding-right: 8px;
 
     color: yellow;
+
+    display: inline-block;
 }
 
 .box_two {
@@ -55,6 +57,12 @@ p {
 .box_three {
     margin: auto;
     border: 2px solid hsl(50, 10%, 1%);
+
+    ;
+}
+
+.box_four {
+    display: none;
 }
 
 #lake_image {
