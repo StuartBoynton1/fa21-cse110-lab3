@@ -55,6 +55,8 @@ p {
 
     max-width: 70vw;
     max-height: 30vw;
+
+    position: static;
 }
 
 .box_three {
@@ -71,6 +73,9 @@ p {
 #lake_image {
     height: 200px;
     width: 300px;
+
+    position: sticky;
+    top: 20px;
 }
 
 #content_header {
