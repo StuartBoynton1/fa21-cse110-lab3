@@ -1,3 +1,9 @@
+@media all {
+    body {
+        background-color: rgb(20, 10, 10);
+    }
+}
+
 h1 {            /* Setting color and size of main  header */
     color: blue;
     font-size: 8vw;
