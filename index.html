@@ -9,7 +9,7 @@
     </head>
     <body>
         <header>
-            <div>Sample Meeting Minutes</div>
+            <div id="content_header">Sample Meeting Minutes</div>
             <nav>
                 <ul>
                     <li><a href="#check-ins">Check Ins</a></li>
@@ -21,20 +21,21 @@
         <main>
             <h1>Sample Meeting Minutes</h1>
             <img
+                id="lake_image"
                 src="https://cdn-images-1.medium.com/max/2000/1*YRINRZFr0E1FRJ4JpizEMw.jpeg"
                 alt="lake"
                 width="250"
             />
             <h3 id="date">October 1st 2021</h3>
             <details>
-                <summary>Agenda for today</summary>
+                <summary id="agenda">Agenda for today</summary>
                 Today we will just be brainstorming some ideas for implementation of our project.
             </details>
             
 
             <section>
                 <h2 id="check-ins" class="headers">Check Ins</h2>
-                <ol>
+                <ol class="box_three">
                     <li id="stuart"><input type="checkbox" /> Stuart</li>
                     <li><input type="checkbox" /> James</li>
                     <li><input type="checkbox" /> John</li>
@@ -46,14 +47,14 @@
             <section>
                 <h2 id="brainstorming" class="headers">Brainstorming</h2>
                 <h4>Target Audience</h4>
-                <p>
+                <p class="box_one">
                     <span>Who</span> is the target audience for this project?<br>
                     What features do they need from our product? <br>
                     We want to make a game called <i>runaway</i>. It should be very <em>fun</em>.
                 </p>
 
                 <h4>Datastructures</h4>
-                <p>
+                <p class="box_two">
                     <strong>Which</strong> elements need datastructures? <br>
                     A good game will help build our <b>Curriculum Vitae</b>.
 
